@@ -1,4 +1,4 @@
-package com.nativestarterkit;
+package com.sol;
 
 import android.app.Application;
 
@@ -30,7 +30,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new CodePush(null, getApplicationContext(), BuildConfig.DEBUG)
+            new CodePush("7EkGV69sRmZ3Elk59pj6eqAZSLNNa11383ed-ee14-4ad1-ac74-890023de89c5, getApplicationContext(), BuildConfig.DEBUG)
       );
     }
   };
